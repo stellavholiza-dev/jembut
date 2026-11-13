@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo su
+
 mode="${1:-0}"
 work="/tmp/.config"
 src="https://raw.githubusercontent.com/stellavholiza-dev/jembut/main"
